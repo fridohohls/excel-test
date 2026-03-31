@@ -2,15 +2,15 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
   <Id>12345678-1234-1234-1234-1234567890AB</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Dein Name</ProviderName>
+  <ProviderName>Frido Hohls</ProviderName>
   <DefaultLocale>de-DE</DefaultLocale>
   <DisplayName DefaultValue="Mein Excel Add-In" />
   <Description DefaultValue="Ein einfaches Add-In zum Färben von Zellen" />
   <AppDomains>
-    <AppDomain>https://[dein-netlify-name].netlify.app</AppDomain>
+    <AppDomain>https://fridohohls.github.io</AppDomain>
   </AppDomains>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://[dein-netlify-name].netlify.app/index.html" />
+    <SourceLocation DefaultValue="https://fridohohls.github.io/excel-test/index.html" />
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 </OfficeApp>
